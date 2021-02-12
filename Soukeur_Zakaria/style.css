@@ -1,0 +1,40 @@
+
+      body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            background-color: #333;
+        }
+        h4{
+            font-size:2em;
+            padding:20px;
+            border:2px solid orange;
+            text-align:center;
+            margin-top:70px;
+            animation: move 0.5s ease-in;
+        }
+        div{
+            animation: move 1s ease-in;
+        }
+        .btn {
+            font-size: 1.5rem;
+            margin-left: 20px;
+            padding: 10px 25px;
+            background-color: rgb(221, 145, 45);
+            outline: none;
+            border: 0;
+            border-radius: 20px;
+            color: #333;
+            text-decoration: none;
+            
+        }
+        .btn:hover {
+            background-color: orange;
+        }
+     @keyframes move{
+         0% {
+           transform: translateX(-100%);  
+          }
+          100%{
+              transform: translateX(0%);
+          }
+     }
